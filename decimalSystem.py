@@ -1,8 +1,6 @@
 num = '444'
 base = 5
 
-answer = 0
-for idx, i in enumerate(num[::-1]):
-    answer += int(i) * (base ** idx)
+answer = int(num, base)
 
 print(answer)
